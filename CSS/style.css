@@ -3,4 +3,7 @@
 .center{text-align: center;}
 #titlemain{text-align: center; border: 2px solid black ;}
 #links{text-align: center;}
+#righttitle{float: right; width: 400px;}
 #righttext{float: right; width: 400px;}
+#lefttitle{width: 400px;}
+#lefttext{width: 400px;}

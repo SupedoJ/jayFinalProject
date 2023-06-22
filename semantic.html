@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Semantic HTML</title>
-    <link rel="stylesheet" href="/CSS/style.css" type="text/css">
+    <link rel="stylesheet" href="/CSS/style.css" type="text/css" />
     <!-- Home Page -->
     <div>
       <a
@@ -33,9 +33,9 @@
     <!-- Main section -->,
     <main>
       <!-- Left section -->
-      <section>
-        <h1>Title 1 (about)</h1>
-        <p>
+      <section style="border: 2px solid blue">
+        <h1 id="lefttitle">Title 1 (about)</h1>
+        <p id="lefttext">
           [<b>About Section 1</b>] Lorem ipsum dolor sit amet consectetur,
           adipisicing elit. Optio officia nemo maxime quibusdam facere
           repudiandae quam obcaecati autem neque dicta.
@@ -43,9 +43,9 @@
       </section>
 
       <!-- Right section -->
-      <section>
-        <h1>Title 2 (about)</h1>
-        <p>
+      <section style="border: 2px solid darkslateblue;">
+        <h1 id="righttitle">Title 2 (about)</h1>
+        <p id="righttext">
           [<b>About section 2</b>] Lorem ipsum, dolor sit amet consectetur
           adipisicing elit. Quis natus, error modi voluptates omnis enim totam
           sequi iure dignissimos. Officia.
@@ -54,31 +54,35 @@
 
       <article>
         <!-- Articles under section -->
-        <h1 class="center">Important Title 1 (about)</h1>
-        <p>
-          [<b>Important About</b>] Lorem ipsum dolor sit amet consectetur
-          adipisicing elit. Nihil aperiam dolorem doloribus sequi deleniti
-          officiis est ex, quod voluptatum debitis.
-        </p>
+        <div style="border: 2px solid mediumorchid;" class="center">
+          <h1 class="center">Important Title 1 (about)</h1>
+          <p>
+            [<b>Important About</b>] Lorem ipsum dolor sit amet consectetur
+            adipisicing elit. Nihil aperiam dolorem doloribus sequi deleniti
+            officiis est ex, quod voluptatum debitis.
+          </p>
 
-        <p>
-          [<b>Additional Info</b>] Lorem ipsum dolor sit amet consectetur,
-          adipisicing elit. Ex quod corrupti similique sequi voluptates quis eos
-          impedit a animi cumque?
-        </p>
+          <p>
+            [<b>Additional Info</b>] Lorem ipsum dolor sit amet consectetur,
+            adipisicing elit. Ex quod corrupti similique sequi voluptates quis
+            eos impedit a animi cumque?
+          </p>
+        </div>
 
-        <h1 class="center">Important Title 2</h1>
-        <p>
-          [<b>Important About 2</b>] Lorem ipsum dolor sit, amet consectetur
-          adipisicing elit. Eum, aut vitae rerum nisi reiciendis eaque saepe in
-          dolorem commodi incidunt!
-        </p>
+        <div style="border: 2px solid gray;" class="center">
+          <h1 class="center">Important Title 2</h1>
+          <p>
+            [<b>Important About 2</b>] Lorem ipsum dolor sit, amet consectetur
+            adipisicing elit. Eum, aut vitae rerum nisi reiciendis eaque saepe
+            in dolorem commodi incidunt!
+          </p>
 
-        <p>
-          [<b>Additional Info</b>] Lorem, ipsum dolor sit amet consectetur
-          adipisicing elit. Consequatur aut quod necessitatibus quos ab autem
-          commodi culpa numquam unde quidem.
-        </p>
+          <p>
+            [<b>Additional Info</b>] Lorem, ipsum dolor sit amet consectetur
+            adipisicing elit. Consequatur aut quod necessitatibus quos ab autem
+            commodi culpa numquam unde quidem.
+          </p>
+        </div>
       </article>
     </main>
 
