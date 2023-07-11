@@ -7,3 +7,6 @@
 #righttext{float: right; width: 400px;}
 #lefttitle{width: 400px;}
 #lefttext{width: 400px;}
+
+.nav-h, .nav-v {list-style-type: none; margin: 0; padding: 0; }
+.nav-h {background-color: rgb(233, 164, 73); text-align: center; }
