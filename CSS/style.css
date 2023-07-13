@@ -1,9 +1,11 @@
 .center {
   text-align: center;
+  color: white;
 }
 #titlemain {
   text-align: center;
-  border: 2px solid black;
+  border: 2px solid white;
+  color: white;
 }
 #links {
   text-align: center;
@@ -11,16 +13,20 @@
 #righttitle {
   float: right;
   width: 400px;
+  color: white;
 }
 #righttext {
   float: right;
   width: 400px;
+  color: white;
 }
 #lefttitle {
   width: 400px;
+  color: white;
 }
 #lefttext {
   width: 400px;
+  color: white;
 }
 
 .nav-h,
@@ -40,19 +46,34 @@
 .nav-h li {
   float: left;
 }
+
+
 li a {
-    display: block;
-    color: lightblue;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    background-color: black;
-  }
+  display: block;
+  color: lightblue;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  background-color: black;
+}
 
-  li a:hover {background-color: hotpink;}
+li a:hover {
+  background-color: hotpink;
+}
 
-  .active {background-color:purple;}
+.active {
+  background-color: purple;
+}
 
-  .heading-center{}
-
-  .heading-home{}
+.header-a {
+  text-align: center;
+  position: absolute;
+  top: 0px;
+  right: 45%;
+  display: inline;
+  margin: 8px;
+  background-color: lightblue;
+}
+.general-text {color: white;}
+.general-text a {color: white}
+.general-text a:hover {color: hotpink;}
