@@ -77,7 +77,8 @@ li a:hover {
 .general-text {color: white;}
 .general-text a {color: white}
 .general-text a:hover {color: hotpink;}
-.img-background {
-  
+.img-background {background-image: url(/Image/cyberpunk-7443431.jpg);
   background-size: cover;
 }
+.img-background2{background-image: url(/Image/cyberpunk-g78ecc7cf7_1920.jpg);
+background-size: cover;}
