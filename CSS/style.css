@@ -77,12 +77,13 @@ li a:hover {
 .general-text {color: white;}
 .general-text a {color: white}
 .general-text a:hover {color: hotpink;}
-.img-background {background-image: url(/Image/cyberpunk-7443431.jpg);
+.background {background-image: url(/Image/cyberpunk-7443431.jpg);
   background-size: cover;
 }
 .background2{background-image: url(/Image/cyberpunk-g78ecc7cf7_1920.jpg);
 background-size: cover;
-
+display: grid;
+grid-template-areas: "head head head head" "nav nav nav nav" "left main main right" "left main main right" "foot foot foot foot";
 }
 
 /* Finish tomorrow when lesson is complete */
