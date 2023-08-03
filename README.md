@@ -1,2 +1,2 @@
 # jayFinalProject
-The Website will be about me and my personal life. My interests, hobbies, and career will be included in this website.
+You will dive into a short story of a man named Loki. Raised by a fisherman, he is now a well known criminal doing odd jobs for money.
