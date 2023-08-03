@@ -5,7 +5,6 @@
 .center p{font-size: large;}
 #titlemain {
   text-align: center;
-  border: 2px solid white;
   color: white;
 }
 #links {
@@ -150,3 +149,5 @@ grid-template-areas: "head head head head" "nav nav nav nav" "left main main rig
 
 .heading {color:magenta; background-color: rgba(0, 255, 255, 0.704); display: inline;}
 .story{color: black;background-color: rgba(0, 255, 255, 0.551);}
+.bypass {color: white;}
+.bypass a:hover {color:lightblue;background-color: black;}
