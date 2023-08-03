@@ -2,6 +2,7 @@
   text-align: center;
   color: white;
 }
+.center p{font-size: large;}
 #titlemain {
   text-align: center;
   border: 2px solid white;
@@ -113,7 +114,10 @@ li a:hover {
 .main{grid-area: main;}
 .right-nav{grid-area: right;}
 .foot{grid-area: foot; text-align: center;}
-
+.foot p {display: inline;
+background-color: black;}
+.foot a{background-color: black; color: hotpink;}
+.foot a:hover{color: lightblue; background-color: purple;}
 
 .background2{background-image: url(/Image/cyberpunk-g78ecc7cf7_1920.jpg);
 background-size: cover;
@@ -141,3 +145,8 @@ grid-template-areas: "head head head head" "nav nav nav nav" "left main main rig
 .morm-form {
   margin: 32px 0;
 }
+.heading-top{color: aqua; background-color: rgba(90, 7, 40, 0.614); display: inline;}
+.story-top{color: lightblue; background-color: black;}
+
+.heading {color:magenta; background-color: rgba(0, 255, 255, 0.704); display: inline;}
+.story{color: black;background-color: rgba(0, 255, 255, 0.551);}
